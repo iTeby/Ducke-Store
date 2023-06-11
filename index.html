@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Ducke Store</title>
+    <link rel="shortcut icon" href="/img/logo-grande.png" type="image/x-icon">
+  </head>
+  <body>
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="../img/logo-grande.png" alt="duckestore"></a>
+        <a class="navbar-brand" href="#"><h1>DUCKE STORE</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ducke Store</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contactanos mediante
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><img src="../img/facebook.svg" alt="fb">Facebook</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="../img/instagram.svg" alt="ins">Instagram</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#"><img src="/img/whatsapp.svg" alt="">Whatsapp</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscador Productos</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">PREVENTA EXCLUSIVA</h1>
+      <p class="lead">Inscribete en la preventa exclusiva, de nuestro nuevo Alimento seco <span class="producto">Ducke Care</span>.</p>
+      <hr class="my-4">
+      <p>Formulado con los mejores ingredientes para el cuidado de tu mascota.</p>
+      <p class="lead">
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Last name">
+          </div>
+        </div>
+        <br>
+        <a class="btn btn-primary btn-lg" href="#" role="button">¡Inscribete AQUI!</a>
+      </p>
+    </div>
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <main><div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/snack.jpeg" alt="Snack Ducke">
+          <div class="card-body">
+            <h5 class="card-title">Snack</h5>
+            <p class="card-text">DESDE $2.100 C/U</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">¡COTIZA!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/humedos.jpg" alt="Alimento Húmedo Ducke">
+          <div class="card-body">
+            <h5 class="card-title">Alimento Húmedo</h5>
+            <p class="card-text">DESDE $5.100 C/U</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">¡COTIZA!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="/img/Productos-calmantes.jpeg" alt="calmante">
+          <div class="card-body">
+            <h5 class="card-title">Platos de comida</h5>
+            <p class="card-text">DESDE $7.100 C/U</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">¡COTIZA!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../img/perro.svg" alt="dog_svg" style="width:100px;height:100px;">
+        <p>Tip 1: Asegúrate de que tu perro tenga acceso a agua fresca y limpia en todo momento.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="../img/juego.svg" alt="dog_svg" style="width:100px;height:100px;">
+        <p>Tip 2: Mantén una rutina de ejercicio regular. Los paseos diarios son geniales para la salud de tu perro.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="../img/vet.svg" alt="dog_svg" style="width:100px;height:100px;">
+        <p>Tip 3: No olvides las visitas regulares al veterinario para chequeos y vacunas.</p>
+      </div>
+    </div>
+  </div></main>
+  <footer>
+    <div class="container">
+    <p>&copy; Ducke Store 2023. Todos los derechos reservados.</p>
+    <ul>
+      <li><a href="#"><img src="../img/instagram.svg" alt="Instagram"></a></li>
+      <li><a href="#"><img src="../img/facebook.svg" alt="Facebook"></a></li>
+      <li><a href="#"><img src="../img/twitter.svg" alt="Twitter"></a></li>
+    </ul>
+  </div>
+</footer>
+</html>
