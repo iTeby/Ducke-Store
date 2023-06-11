@@ -25,10 +25,18 @@
       color: #fff;
   }
   
-  .card {
+  .card1 card-img-top {
       border-color: #add1dd;
+      background-image: url(https://drive.google.com/file/d/1UBl-jxKgtQjT88-8BIFQqUOLKSZUhXEN/view?usp=drive_link);
   }
-  
+  .card2 card-img-top {
+      border-color: #add1dd;
+      background-image: url(https://drive.google.com/file/d/15jt8YYTF2xxgeRI-DgjL8YUsNpt2IMUm/view?usp=drive_link);
+  }
+    .card3 card-img-top {
+        border-color: #add1dd;
+        background-image: url(https://drive.google.com/file/d/1aNH4wiD83ajC14uQSSEvF47JSZK58mfQ/view?usp=drive_link);
+    }
   footer {
       background-color: #add1dd;
       color: #fff;
