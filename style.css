@@ -1,1 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+      color: #2c7393;
+      background-color: #add1dd;
+  }
+  .navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+  .jumbotron {
+    padding-top: 10%;
+    background-image: url(https://img.freepik.com/foto-gratis/accesorios-mascotas-concepto-naturaleza-muerta-objetos-coloridos_23-2148949578.jpg?w=2000&t=st=1686344696~exp=1686345296~hmac=866347eb7be5efd4652898e8c8f219c4eed135af91c5ec5344b1a770dddee6c4);
+      text-align: center;
+      background-color: #add1dd;
+      color: #ffffff;
+  }
+  
+  .jumbotron .btn {
+      background-color: #add1dd;
+      border-color: #add1dd;
+      color: #fff;
+  }
+  
+  .card {
+      border-color: #add1dd;
+  }
+  
+  footer {
+      background-color: #add1dd;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+  footer ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  footer ul li {
+      display: inline;
+      margin-right: 10px;
+  }
+  
+  footer ul li a img {
+      width: 30px;
+      height: 30px;
+  }
+  
+  @media (min-width: 400px) and (max-width: 1024px) {
+      .navbar-brand img {
+        height: 50px;
+      }
+    
+      .jumbotron {
+        padding: 2rem 2rem;
+      }
+    
+      .jumbotron .display-4 {
+        font-size: 2.5rem;
+      }
+    
+      .jumbotron .lead {
+        font-size: 1.25rem;
+      }
+    
+      .jumbotron .form-control-sm {
+        width: 50%;
+        margin: 0 auto;
+      }
+    
+      .card {
+        margin-bottom: 2rem;
+      }
+    }
+    
+   
+    @media (min-width: 1025px) {
+      .navbar-brand img {
+        height: 60px;
+      }
+    
+      .jumbotron {
+        padding: 2rem 2rem;
+      }
+    
+      .jumbotron .display-4 {
+        font-size: 3rem;
+      }
+    
+      .jumbotron .lead {
+        font-size: 1.5rem;
+      }
+    
+      .jumbotron .form-control-sm {
+        width: 30%;
+        margin: 0 auto;
+      }
+    
+      .card {
+        margin-bottom: 2rem;
+      }
+    }
+    
+  
